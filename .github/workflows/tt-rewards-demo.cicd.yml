@@ -46,5 +46,5 @@ jobs:
       with:
         app-name: ${{ env.AZURE_WEBAPP_NAME }}
         connection-strings-json: '${{ secrets.CONNECTION_STRINGS }}'
-        general-settings-json: '{"alwaysOn": "false", "webSocketsEnabled": "true"}' #'General configuration settings as Key Value pairs'
+        general-settings-json: '{"alwaysOn": "false", "webSocketsEnabled": "true", "netFrameworkVersion": "v4.0"}' #'General configuration settings as Key Value pairs'
       id: settings
