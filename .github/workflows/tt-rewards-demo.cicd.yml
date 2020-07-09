@@ -48,4 +48,3 @@ jobs:
         connection-strings-json: '${{ secrets.CONNECTION_STRINGS }}'
         general-settings-json: '{"alwaysOn": "false", "webSocketsEnabled": "true"}' #'General configuration settings as Key Value pairs'
       id: settings
-
